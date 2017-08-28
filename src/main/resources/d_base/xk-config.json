@@ -1,0 +1,22 @@
+{
+  "xk_clientModelProperties": [
+    "content",
+    "styling",
+    "global",
+    "page",
+    "component"
+  ],
+  "xk_containerClasses": [
+    "xk-component",
+    "xk-section-base"
+  ],
+  "xk_componentCategory": [
+    "design",
+    "global",
+    "content",
+    "styling",
+    "component",
+    "page"
+  ],
+  "xk_clientAccessible": true
+}
