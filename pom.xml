@@ -56,14 +56,33 @@
     </parent>
     <groupId>Danta</groupId>
     <artifactId>JahiaDFContentDefinition</artifactId>
-    <name>Danta JahiaDF Content Definition</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
+
+    <name>Danta JahiaDF Content Definition</name>
     <description>This is the custom module (Danta Content Definition) for running on a Jahia Digital Factory server.</description>
+    <url>https://github.com/DantaFramework/JahiaDFContentDefinition</url>
+
+    <licenses>
+        <license>
+            <name>GNU AFFERO GENERAL PUBLIC LICENSE</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.html</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Tikal Technologies Core Team</name>
+            <email>support@tikaltechnologies.io</email>
+            <organization>Tikal Technologies, Inc</organization>
+            <organizationUrl>https://tikaltechnologies.io/</organizationUrl>
+        </developer>
+    </developers>
 
     <scm>
-        <connection>scm:dummy:uri</connection>
-        <developerConnection>scm:dummy:uri</developerConnection>
+        <connection>scm:git:git://github.com/DantaFramework/JahiaDFContentDefinition.git</connection>
+        <developerConnection>scm:git:ssh://github.com/DantaFramework/JahiaDFContentDefinition.git</developerConnection>
+        <url>https://github.com/JahiaDFContentDefinition/Parent/tree/master</url>
     </scm>
 
     <properties>
