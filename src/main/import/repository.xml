@@ -2,32 +2,37 @@
 <content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
     <modules jcr:primaryType="jnt:modules">
         <JahiaDFContentDefinition j:dependencies="default"
-                                       j:modulePriority="0"
-                                       j:moduleType="module"
-                                       j:title="LayerX Content Definition"
-                                       jcr:mixinTypes="jmix:hasExternalProviderExtension"
-                                       jcr:primaryType="jnt:module">
-                <sources jcr:primaryType="jnt:moduleVersionFolder"
-                  j:staticMountPointProviderKey="module-JahiaDFContentDefinition-1.0-SNAPSHOT">
-                    <src jcr:primaryType="jnt:folder">
-                        <main jcr:primaryType="jnt:folder">
-                            <resources jcr:primaryType="jnt:folder">
-                                <META-INF jcr:primaryType="jnt:metaInfFolder">
+                                j:modulePriority="0"
+                                j:moduleType="system"
+                                j:title="Danta JahiaDF Content Definition"
+                                jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                                jcr:primaryType="jnt:module">
+                <sources jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                  jcr:primaryType="jnt:moduleVersionFolder"
+                  j:staticMountPointProviderKey="module-JahiaDFContentDefinition-1.1-SNAPSHOT">
+                    <src jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                 jcr:primaryType="jnt:folder">
+                        <main jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                     jcr:primaryType="jnt:folder">
+                            <resources jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                             jcr:primaryType="jnt:folder">
+                                <META-INF jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                               jcr:primaryType="jnt:metaInfFolder">
                                     <definitions.cnd jcr:primaryType="jnt:definitionFile"/>
                                 </META-INF>
                             </resources>
                         </main>
                     </src>
                 </sources>
-
+                
                 <portlets jcr:primaryType="jnt:portletFolder"/>
                 <files jcr:primaryType="jnt:folder"/>
                 <contents jcr:primaryType="jnt:contentFolder"/>
-                <templates j:rootTemplatePath="/base" jcr:primaryType="jnt:templatesFolder">
+                <templates jcr:primaryType="jnt:templatesFolder">
                     <files jcr:primaryType="jnt:folder"/>
                     <contents jcr:primaryType="jnt:contentFolder"/>
                 </templates>
-
+                
             </JahiaDFContentDefinition>
     </modules>
 </content>
