@@ -54,7 +54,7 @@
         <groupId>org.jahia.modules</groupId>
         <version>7.1.2.0</version>
     </parent>
-    <groupId>Danta</groupId>
+    <groupId>io.tikaltechnologies.danta</groupId>
     <artifactId>JahiaDFContentDefinition</artifactId>
 
     <name>Danta JahiaDF Content Definition</name>
