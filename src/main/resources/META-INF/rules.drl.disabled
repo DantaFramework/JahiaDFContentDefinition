@@ -1,4 +1,4 @@
-package io.tikaltechnologies.danta.jahiadfcontentdefinition.rules
+package io.tikaltechnologies.danta.jahiadfbase.rules
 
 // list any import classes here.
 import org.jahia.services.content.rules.*
