@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
     <modules jcr:primaryType="jnt:modules">
-        <JahiaDFContentDefinition j:dependencies="default"
-                                j:modulePriority="0"
-                                j:moduleType="system"
-                                j:title="Danta JahiaDF Content Definition"
-                                jcr:mixinTypes="jmix:hasExternalProviderExtension"
-                                jcr:primaryType="jnt:module">
-                <sources jcr:mixinTypes="jmix:hasExternalProviderExtension"
+        <jahia-df-base j:dependencies="default"
+                     j:modulePriority="0"
+                     j:moduleType="system"
+                     j:title="Danta JahiaDF Base"
+                     jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                     jcr:primaryType="jnt:module">
+                <sources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
                   jcr:primaryType="jnt:moduleVersionFolder"
-                  j:staticMountPointProviderKey="module-JahiaDFContentDefinition-1.1-SNAPSHOT">
-                    <src jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                  j:staticMountPointProviderKey="module-jahia-df-base-1.0-SNAPSHOT">
+                    <src jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
                  jcr:primaryType="jnt:folder">
-                        <main jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                        <main jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
                      jcr:primaryType="jnt:folder">
-                            <resources jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                            <resources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
                              jcr:primaryType="jnt:folder">
-                                <META-INF jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                                <META-INF jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
                                jcr:primaryType="jnt:metaInfFolder">
-                                    <definitions.cnd jcr:primaryType="jnt:definitionFile"/>
+                                    <definitions.cnd jcr:mixinTypes="jmix:sourceControl"
+                                         jcr:primaryType="jnt:definitionFile"/>
                                 </META-INF>
                             </resources>
                         </main>
@@ -33,6 +34,6 @@
                     <contents jcr:primaryType="jnt:contentFolder"/>
                 </templates>
                 
-            </JahiaDFContentDefinition>
+            </jahia-df-base>
     </modules>
 </content>
